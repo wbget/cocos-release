@@ -1,0 +1,45 @@
+{
+  "name": "@wbget/cocos-release",
+  "description": "release version for cocos",
+  "dependencies": {
+    "ali-oss": "^6.17.1",
+    "colors": "^1.4.0",
+    "enquirer": "^2.3.6"
+  },
+  "devDependencies": {
+    "mwts": "^1.2.2",
+    "np": "^7.6.2"
+  },
+  "scripts": {
+    "test": "node test",
+    "release": "npx np --no-cleanup --no-2fa"
+  },
+  "np": {
+    "yarn": false
+  },
+  "version": "0.0.1",
+  "bin": {
+    "cocos-release": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbget/cocos-release.git"
+  },
+  "keywords": [
+    "cocos",
+    "excel"
+  ],
+  "author": "wbget",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbget/cocos-release/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/wbget/cocos-release#readme",
+  "files": [
+    "bin",
+    "package.json"
+  ]
+}
