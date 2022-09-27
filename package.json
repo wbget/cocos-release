@@ -17,7 +17,7 @@
   "np": {
     "yarn": false
   },
-  "version": "0.0.1",
+  "version": "0.0.0",
   "bin": {
     "cocos-release": "bin/index.js"
   },
