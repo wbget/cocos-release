@@ -4,7 +4,9 @@ const OSS = require('ali-oss');
 const path = require('path');
 const fs = require('fs');
 const { prompt } = require('enquirer');
+const { version } = require('../package.json');
 
+console.log(`发布工具v${version}`);
 const configPath = process.argv[2];
 if (!configPath) {
   console.error('ERROR: 需要指定配置');
