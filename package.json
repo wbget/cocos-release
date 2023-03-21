@@ -3,7 +3,6 @@
   "description": "release version for cocos",
   "dependencies": {
     "ali-oss": "^6.17.1",
-    "colors": "^1.4.0",
     "enquirer": "^2.3.6"
   },
   "devDependencies": {
