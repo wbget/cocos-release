@@ -10,7 +10,7 @@
     "np": "^7.6.2"
   },
   "scripts": {
-    "release": "npx np --no-cleanup --no-2fa"
+    "release": "npx np --no-cleanup --no-tests --no-2fa"
   },
   "np": {
     "yarn": false
